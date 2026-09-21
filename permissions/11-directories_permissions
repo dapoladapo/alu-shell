@@ -1,2 +1,2 @@
 #!/bin/bash
-find alu-shell/ -type d -exec chmod 755 {} +
+find alu-shell/permissions/ -type d -exec chmod 755 {} +
