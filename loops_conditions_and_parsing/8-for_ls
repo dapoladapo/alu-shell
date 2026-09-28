@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# displays content o current directory in ls
+for file in *
+do 
+	if [[ $file == .* ]]
+	then
+		continue
+	fi
+	
+	file_name=$(echo "$file" | cut -d '-' -f 2-)
+
+	echo "$file_name"
+done

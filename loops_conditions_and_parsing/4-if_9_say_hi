@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# repeats 10 times until 9th iteration then say hi
+i=0
+while [ "$i" -le 10 ]
+do 
+	if [ "$i" -eq 9 ]
+        then 
+		echo -e "Best School\nHi"
+	else 
+		echo "Best School"
+	fi
+
+	i=$((i + 1))
+
+done
