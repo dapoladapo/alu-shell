@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#This is a clock thing
 hour=0
 
 while [ "$hour" -le 12 ]
